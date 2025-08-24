@@ -8,7 +8,9 @@ We compare:
 - Benchmarks are run on a **10-core CPU** with **multi-threading + SIMD**, showing up to **20× speedup** compared to a naive scalar baseline.
 
 ---
-
+## How to run with vector api module
+ - mvn clean package
+ - java --add-modules jdk.incubator.vector -jar target/mc-vector-benchmark-1.0-SNAPSHOT-all.jar
 ## 1. Background
 
 We price a **European Call Option** with:
